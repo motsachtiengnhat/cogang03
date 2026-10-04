@@ -864,29 +864,29 @@
 
           <div class="bank-box">
             <div style="text-align:center;margin-bottom:10px;">
-              <img src="Mã QR.jpg" alt="QR" style="max-width:220px;margin:auto;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,0.1);">
-              <div style="margin-top:8px;font-weight:700;color:#ff7a18;">Quét QR nếu ủng hộ mức bạn muốn nhaa⚡</div>
+              <img src="Mã QR.JPG" alt="QR" style="max-width:220px;margin:auto;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,0.1);">
+              <div style="margin-top:8px;font-weight:700;color:#ff7a18;">Quét QR ủng hộ mức bạn muốn nhaa⚡</div>
             </div>
             <div class="bank-row">
               <div>
                 <div class="bank-label">Ngân hàng / Ví</div>
-                <div class="bank-value" id="bankName">BIDV - CN Cầu Giấy</div>
+                <div class="bank-value" id="bankName">BIDV </div>
               </div>
-              <button class="bank-btn" data-copy="BIDV - CN Cầu Giấy">Copy</button>
+              <button class="bank-btn" data-copy="BIDV ">Copy</button>
             </div>
             <div class="bank-row">
               <div>
                 <div class="bank-label">Số tài khoản</div>
-                <div class="bank-value" id="accountNumber">8838325344</div>
+                <div class="bank-value" id="accountNumber">8990132215</div>
               </div>
-              <button class="bank-btn" data-copy="8838325344">Copy</button>
+              <button class="bank-btn" data-copy="8990132215">Copy</button>
             </div>
             <div class="bank-row">
               <div>
                 <div class="bank-label">Chủ tài khoản</div>
-                <div class="bank-value" id="accountName">NGUYEN TON KIEN</div>
+                <div class="bank-value" id="accountName">NGUYEN TON DUY</div>
               </div>
-              <button class="bank-btn" data-copy="NGUYEN TON KIEN">Copy</button>
+              <button class="bank-btn" data-copy="NGUYEN TON DUY">Copy</button>
             </div>
             <div class="bank-row">
               <div>
@@ -1016,7 +1016,7 @@
       </div>
       <div class="qr-amount" id="qrAmount">Mức đã chọn: 100.000đ</div>
 
-      <img src="Mã QR.jpg" alt="QR chuyển khoản">
+      <img src="Mã QR.JPG" alt="QR chuyển khoản">
 
       <div class="qr-actions">
         <button class="main-cta" id="copyTransferNoteBtn" type="button">📋 Copy nội dung chuyển khoản</button>
@@ -1091,7 +1091,7 @@
       btn.addEventListener('click', () => {
         const numericAmount = Number(btn.dataset.amount);
         const amountText = new Intl.NumberFormat('vi-VN').format(numericAmount) + 'đ';
-        const note = `Ung ho ${new Intl.NumberFormat('vi-VN').format(numericAmount)} cho tai lieu JLPT`;
+        const note = `Motsach JLPT ${new Intl.NumberFormat('vi-VN').format(numericAmount)}`;
 
         currentTransferNote = note;
         transferNote.textContent = note;
